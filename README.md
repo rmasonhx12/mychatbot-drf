@@ -12,6 +12,7 @@ This is a Django backend project designed to handle chatbot responses using Open
   - [Activate shell](#activate-shell)
   - [Deactivate shell](#deactivate-shell)
   - [Getting Your OpenAI API Key](#getting-your-openai-api-key)
+  - [run server](#run-server)
 
 ## Getting Started
 
@@ -64,7 +65,8 @@ exit
 ```
 export OPENAI_API_KEY=<your-openai-api-key>
 ```
-
+## run server
 ```
+cd chatbot_project
 python manage.py runserver
 ```

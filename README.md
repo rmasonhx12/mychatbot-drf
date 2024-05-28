@@ -8,6 +8,9 @@ This is a Django backend project designed to handle chatbot responses using Open
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Cloning the Repository](#cloning-the-repository)
+  - [Install django and CORS](#install-django-and-cors)
+  - [Activate shell](#activate-shell)
+  - [Deactivate shell](#deactivate-shell)
   - [Getting Your OpenAI API Key](#getting-your-openai-api-key)
 
 ## Getting Started
@@ -25,9 +28,26 @@ You can clone this repository using degit, which allows you to quickly copy the 
 
 bash
 ```
-npx degit git@github.com:yourusername/your-repo.git django-backend
-cd django-backend
+npx degit git@github.com:rmasonhx12/mychatbot-drf.git mychatbot
+cd mychatbot 
 ```
+## Install django and CORS
+```
+pipenv install django
+pipenv install openAI
+pipenv install django-cors-headers
+```
+## Activate shell
+```
+pipenv shell
+```
+
+## Deactivate shell
+```
+exit  
+```
+
+
 
 
 
